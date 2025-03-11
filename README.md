@@ -58,3 +58,7 @@ streamlit run app.py
 ```
 
 ### Tools: Streamlit, Langchain, Pydantic, OpenAI
+
+### Result:
+![image](https://github.com/user-attachments/assets/1493cf8c-b28a-4ab6-a793-48b51bfb84aa)
+
