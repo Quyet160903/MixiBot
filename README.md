@@ -19,6 +19,7 @@ MixiBot is a chatbot application built with [Streamlit](https://streamlit.io/) a
   ├── tool.py # LangChain tool definitions for YouTube interactions
   ├── .env # Environment variables (create locally; do not commit)
   ├── requirements.txt # Python dependencies
+  ├── README.md
 ```
 ## Setup
 
@@ -40,7 +41,9 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 ### 4. Set Up Environment Variables
-Create a ```bash .env ``` file in the project root with the following content:
+Create a ```bash
+.env 
+``` file in the project root with the following content:
 ```bash
 OPENAI_API_KEY=your_openai_api_key_here
 GOOGLE_YOUTUBE_API_KEY=your_youtube_api_key_here
