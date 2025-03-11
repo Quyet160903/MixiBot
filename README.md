@@ -12,6 +12,13 @@ MixiBot is a chatbot application built with [Streamlit](https://streamlit.io/) a
   Built on LangChain's modular tools framework, making it easy to add new functionalities.
 
 ## Repository Structure
-MixiBot/ ├── app.py # Main Streamlit application entry point ├── functions.py # Functions to interact with YouTube API and summarize videos ├── tool.py # LangChain tool definitions for YouTube interactions ├── .env # Environment variables (create locally; do not commit) ├── requirements.txt # Python dependencies └── README.md
+```bash
+MixiBot/
+  ├── app.py # Main Streamlit application entry point
+  ├── functions.py # Functions to interact with YouTube API and summarize videos
+  ├── tool.py # LangChain tool definitions for YouTube interactions
+  ├── .env # Environment variables (create locally; do not commit)
+  ├── requirements.txt # Python dependencies
+```
 
 
