@@ -44,10 +44,7 @@ pip install -r requirements.txt
 ```
 
 ### 4. Set Up Environment Variables
-Create a '
-```bash
-.env 
-```
+Create a <b>.env</b>
 file in the project root with the following content:
 ```bash
 OPENAI_API_KEY=your_openai_api_key_here
