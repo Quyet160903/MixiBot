@@ -33,17 +33,22 @@ cd MixiBot
 ```
 
 ### 2. Create a Virtual Environment (Optional but Recommended)
-
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
 ### 3. Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
 ### 4. Set Up Environment Variables
-Create a ```bash
+Create a '
+```bash
 .env 
-``` file in the project root with the following content:
+```
+file in the project root with the following content:
 ```bash
 OPENAI_API_KEY=your_openai_api_key_here
 GOOGLE_YOUTUBE_API_KEY=your_youtube_api_key_here
